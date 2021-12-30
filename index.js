@@ -57,24 +57,70 @@
 
 // 1.1 Multiplica 10 por 5 y muestra el resultado mediante alert.
 
-alert(10 * 5);
+// alert(10 * 5);
 
-// 1.2 Divide 10 por 2 y muestra el resultado en un alert.
-alert(10 / 2);
+// // 1.2 Divide 10 por 2 y muestra el resultado en un alert.
+// alert(10 / 2);
 
-// 1.3 Muestra mediante un alert el resto de dividir 15 por 9.
+// // 1.3 Muestra mediante un alert el resto de dividir 15 por 9.
 
-alert(15 % 9);
+// alert(15 % 9);
 
-// 1.4 Usa el correcto operador de asignación que resultará en x = 15, 
-// teniendo dos variables y = 10 y z = 5.
-// const y = 10;
-// const z = 5;
-// const x = y + z;
+// // 1.4 Usa el correcto operador de asignación que resultará en x = 15, 
+// // teniendo dos variables y = 10 y z = 5.
+// // const y = 10;
+// // const z = 5;
+// // const x = y + z;
 
-// 1.5 Usa el correcto operador de asignación que resultará en x = 50,
-// teniendo dos variables y = 10 y z = 5.
+// // 1.5 Usa el correcto operador de asignación que resultará en x = 50,
+// // teniendo dos variables y = 10 y z = 5.
 
-// const y = 10;
-// const z = 5;
-// const x = y * z;
+// // const y = 10;
+// // const z = 5;
+// // const x = y * z;
+
+//Iteración #4: Arrays
+
+// 1.1 Consigue el valor "HULK" del array de cars y muestralo por consola.
+
+// const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+// const myAvenger = avengers[0];
+// console.log(myAvenger);
+
+
+// 1.2 Cambia el primer elemento de avengers a "IRONMAN"
+
+// const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+// avengers[0] = "IRONMAN";
+
+
+
+// 1.3 Alert numero de elementos en el array usando la propiedad correcta de Array.
+// const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+// alert(avengers.length);
+
+
+// 1.4 Añade 2 elementos al array: "Morty" y "Summer". 
+// Muestra en consola el último personaje del array
+// const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+
+// rickAndMortyCharacters.push("Morty", "Summer");
+
+// console.log(rickAndMortyCharacters[rickAndMortyCharacters.length - 1]);
+
+// 1.5 Elimina el último elemento del array y muestra el primero y el último por consola.
+// const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+
+// rickAndMortyCharacters.pop();
+
+// console.log(rickAndMortyCharacters[0] + " and " + rickAndMortyCharacters[rickAndMortyCharacters.length - 1])
+
+// 1.6 Elimina el segundo elemento del array y muestra el array por consola.
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+
+rickAndMortyCharacters.splice(1, 1);
+
+console.log(rickAndMortyCharacters);
